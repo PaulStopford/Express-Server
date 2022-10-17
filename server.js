@@ -12,7 +12,7 @@ app.get("/contacts", function(req, res){
 });
 
 app.get("/about", function(req, res){
-  res.send("I love to eat Flanagans while jamming to death metal on my guitar");
+  res.send("I love playing guitar");
 });
 
 app.listen(3000, function(){
